@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  //   background-color: $light-white-color;
+  color: $white-color;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+}
+.img-brands {
+  width: 3rem;
+  height: 3rem;
+  &:first-child {
+    margin-left: 0 !important;
+  }
+}

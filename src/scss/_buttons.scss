@@ -1,0 +1,14 @@
+.btn {
+  border: none !important;
+  color: $white-color;
+
+  &-projects {
+    background-color: $black-color;
+    padding: 1rem 1rem;
+  }
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+}

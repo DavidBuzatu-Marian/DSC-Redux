@@ -1,0 +1,13 @@
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-shadow: 0 8px 10px 0 rgba(37, 65, 120, 0.12),
+    0 5px 24px 0 rgba(29, 58, 125, 0.05);
+  border-radius: 0.5rem;
+  background-color: $primary-color;
+  .col {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+  }
+}

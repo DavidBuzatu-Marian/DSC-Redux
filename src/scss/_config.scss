@@ -1,0 +1,29 @@
+$primary-color: #7293a0;
+$secondary-color: #45b69c;
+$white-color: #ffffff;
+$black-color: #001011;
+$light-white-color: #d8ddef;
+
+$sizes: (0.5, 1, 1.5, 2, 3, 4, 5);
+
+@each $size in $sizes {
+  .m-#{$size} {
+    margin: #{$size}rem;
+  }
+  .mx-#{$size} {
+    margin: 0 #{$size}rem;
+  }
+  .my-#{$size} {
+    margin: #{$size}rem 0;
+  }
+
+  .p-#{$size} {
+    padding: #{$size}rem;
+  }
+  .px-#{$size} {
+    padding: 0 #{$size}rem;
+  }
+  .py-#{$size} {
+    padding: #{$size}rem 0;
+  }
+}

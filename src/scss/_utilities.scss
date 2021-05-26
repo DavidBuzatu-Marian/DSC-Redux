@@ -3,6 +3,12 @@
   flex-direction: column;
   //   background-color: $light-white-color;
   color: $white-color;
+
+  &-projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    overflow: hidden;
+  }
 }
 
 img {

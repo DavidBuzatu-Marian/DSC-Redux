@@ -1,21 +1,19 @@
 import './App.scss';
+import Landing from './components/Landing';
+import Project from './components/Project';
+import ProjectCard from './components/ProjectCard';
+const projects = [1, 2, 3, 4, 5, 6, 7, 8];
 
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className='App-link'
-          href='https://reactjs.org'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Learn React
-        </a>
-      </header>
+      <Landing />
+      <div className='container-projects p-4'>
+        {projects.map((p) => (
+          <ProjectCard key={p} />
+        ))}
+      </div>
+      <Project />
     </div>
   );
 }

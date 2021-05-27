@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import { Octokit } from '@octokit/core';
+import { AUTH } from '../constants/default';
 const octokit = new Octokit({
-  auth: `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`,
+  auth: AUTH,
 });
 const ReadMe = () => {
   const [currState, setState] = useState({

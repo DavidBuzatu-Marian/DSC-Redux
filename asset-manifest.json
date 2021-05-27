@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/dsc-redux/static/css/main.9a1e886a.chunk.css",
-    "main.js": "/dsc-redux/static/js/main.35e5e28b.chunk.js",
-    "main.js.map": "/dsc-redux/static/js/main.35e5e28b.chunk.js.map",
+    "main.js": "/dsc-redux/static/js/main.a376723f.chunk.js",
+    "main.js.map": "/dsc-redux/static/js/main.a376723f.chunk.js.map",
     "runtime-main.js": "/dsc-redux/static/js/runtime-main.0083d190.js",
     "runtime-main.js.map": "/dsc-redux/static/js/runtime-main.0083d190.js.map",
-    "static/js/2.0d593dd5.chunk.js": "/dsc-redux/static/js/2.0d593dd5.chunk.js",
-    "static/js/2.0d593dd5.chunk.js.map": "/dsc-redux/static/js/2.0d593dd5.chunk.js.map",
+    "static/js/2.dea3fa1f.chunk.js": "/dsc-redux/static/js/2.dea3fa1f.chunk.js",
+    "static/js/2.dea3fa1f.chunk.js.map": "/dsc-redux/static/js/2.dea3fa1f.chunk.js.map",
     "index.html": "/dsc-redux/index.html",
     "static/css/main.9a1e886a.chunk.css.map": "/dsc-redux/static/css/main.9a1e886a.chunk.css.map",
-    "static/js/2.0d593dd5.chunk.js.LICENSE.txt": "/dsc-redux/static/js/2.0d593dd5.chunk.js.LICENSE.txt",
+    "static/js/2.dea3fa1f.chunk.js.LICENSE.txt": "/dsc-redux/static/js/2.dea3fa1f.chunk.js.LICENSE.txt",
     "static/media/David.460c4861.jpg": "/dsc-redux/static/media/David.460c4861.jpg",
     "static/media/github-brands.e2f07326.svg": "/dsc-redux/static/media/github-brands.e2f07326.svg",
     "static/media/linkedin-in-brands.8fb0cfb6.svg": "/dsc-redux/static/media/linkedin-in-brands.8fb0cfb6.svg",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0083d190.js",
-    "static/js/2.0d593dd5.chunk.js",
+    "static/js/2.dea3fa1f.chunk.js",
     "static/css/main.9a1e886a.chunk.css",
-    "static/js/main.35e5e28b.chunk.js"
+    "static/js/main.a376723f.chunk.js"
   ]
 }
